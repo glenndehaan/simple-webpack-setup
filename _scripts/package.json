@@ -1,0 +1,21 @@
+{
+  "name": "simple-webpack-setup",
+  "version": "0.0.0",
+  "description": "simple-webpack-setup",
+  "private": true,
+  "scripts": {
+    "prebuild": "rm -rf ../dist",
+    "build": "webpack --config ./webpack.config.js --progress",
+    "prestart": "rm -rf ../dist",
+    "start": "webpack --config ./webpack.config.js --watch --watch-poll -d --progress"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.22.0",
+    "webpack": "^3.10.0"
+  }
+}

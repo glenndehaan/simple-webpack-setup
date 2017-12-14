@@ -1,0 +1,8 @@
+# PHPStorm
+.idea
+
+# Dependency managers
+node_modules
+
+# Compiled files
+dist
